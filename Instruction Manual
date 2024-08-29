@@ -1,0 +1,57 @@
+Instruction Manual
+
+The following instructions will go over the hardware and software procedures required to produce
+and use the ROAMS robot.
+
+Hardware Assembly
+1. 3D Print the Parts:
+• 3D print all the parts located in the parts folder.
+2. Prepare Printed Parts:
+• Clean off all support materials from the printed parts. Sand the parts where necessary.
+3. Install Motors:
+• Insert the motors into their respective mounts.
+4. Prepare the Control Board:
+• Cut off the ground pin and the 3.3V pin on the side of the board opposite the micro USB
+port.
+5. Complete the Wiring:
+• Follow the wiring diagram provided in section A.2. Complete the wiring before assem-
+bling the parts, as there won’t be enough space to insert the wires afterward.
+• Verification: After assembly, power on the switch. You should see indicator lights on
+both the control board and the motor driver board.
+6. Attach the Motor Driver:
+• Use 5mm M3 screws to secure the motor driver to the body of the robot.
+7. Mount the Battery Holder and Control Board:
+• Use 10mm M3 screws to attach the battery holder through its mounting holes, then
+secure the control board to the body.
+8. Install Bearings:
+• Push-fit all the bearings into the legs.
+9. Assemble the Legs:
+• Align the legs to form the final two four-bar linkages.
+10. Insert Aluminum Rods:
+• Press the aluminum rods through the bearings and cut them to the appropriate length.
+11. Attach Legs to Motor Shaft:
+• Press the legs onto the motor shafts.
+
+Completion: You now have a fully assembled ROAMS robot.
+
+Software Setup (Arduino Only)
+Note: To use Python or ROS, refer to the relevant instructions Python instructions or ROS
+instructions.
+1. Install ESP32 Board Package:
+• Install the ESP32 board package in Arduino. Use version 2.0.17 by Espressif, as the
+code may break with version 3.0 due to language changes.
+2. Select the ESP32 Board:
+• Plug the board into your computer and select ESP32 DEV MODULE from the board op-
+tions.
+3. Write or Upload Code:
+• Either write your own code or use the provided code.
+4. Upload the Code:
+• While uploading:
+– Hold down the BOOT button on your ESP32 board.
+– Release the BOOT button after the “Connecting. . .” message appears in the
+Arduino IDE.
+
+Completion: Your code should now be successfully uploaded and functional.
+
+Final Note: If all steps have been followed correctly, your ROAMS robot should be ready to
+run any experiment you wish to conduct.
