@@ -1,2 +1,4 @@
 # ROAMS-Robot
-This is the repository for the ROAMS Robot
+This is the repository for the ROAMS Robot.
+
+PLEASE READ THE INSTRUCTIONS ON HOW TO PRODUCE THIS ROBOT.
